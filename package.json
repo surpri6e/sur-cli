@@ -1,0 +1,39 @@
+{
+    "name": "sur",
+    "version": "1.0.0",
+    "description": "CLI for typescript node.js projects",
+    "main": "index.js",
+    "type": "commonjs",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/surpri6e/sur-cli.git"
+    },
+    "scripts": {
+        "dev": "tsc && node dist/index.js",
+        "build": "tsc",
+        "deploy": "npm pulish"
+    },
+    "preferGlobal": true,
+    "bin": "./dist/index.js",
+    "author": "surpri6e",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^20.14.2",
+        "prettier": "^3.3.2"
+    },
+    "dependencies": {
+        "bytes-transform": "^1.4.0",
+        "chalk": "^4.1.2",
+        "commander": "^12.1.0",
+        "typescript": "^5.4.5"
+    },
+    "keywords": [
+        "cli",
+        "surpri6e",
+        "sur-cli"
+    ],
+    "bugs": {
+        "url": "https://github.com/surpri6e/sur-cli/issues"
+    },
+    "homepage": "https://github.com/surpri6e/sur-cli#readme"
+}
