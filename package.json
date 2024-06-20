@@ -1,5 +1,5 @@
 {
-    "name": "sur",
+    "name": "surp",
     "version": "1.0.0",
     "description": "CLI for typescript node.js projects",
     "main": "index.js",
@@ -11,7 +11,7 @@
     "scripts": {
         "dev": "tsc && node dist/index.js",
         "build": "tsc",
-        "deploy": "npm pulish"
+        "deploy": "npm publish"
     },
     "preferGlobal": true,
     "bin": "./dist/index.js",
@@ -30,7 +30,7 @@
     "keywords": [
         "cli",
         "surpri6e",
-        "sur-cli"
+        "surp-cli"
     ],
     "bugs": {
         "url": "https://github.com/surpri6e/sur-cli/issues"
